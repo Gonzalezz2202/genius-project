@@ -1,12 +1,69 @@
+:root{
+    --color-brand-dark: #465929;
+    --color-brand-light: #819B57;
+    --color-primary-dark: #31261A;
+    --color-primary-light: #FAF4EA;
+}
+
+.body{
+    color: var(--color-primary-dark);
+}
+
+.nav-link{
+    color: var(--color-primary-light)
+}
+
+.nav-link:hover{
+    color: var(--color-brand-light);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.hero-title{
+    color: var(--color-primary-light)
+}
+
+.hero-title .accent{
+    color: var(--color-brand-light);
+}
+
+.advantages{
+    color: var(--color-primary-light)
+    background-color: var(--color-brand-light);
+}
+
 .button{
-    color:#FAF4EA;
-    background-color: #819B57;
-    border: 2px solid #819B57;
+    color:var(--color-primary-light)
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
     border-radius: 8px;
     cursor: pointer;
 }
 
 .button:hover{
-    color: #465929;
+    color: var(--color-brand-dark);
     background-color: transparent
+}
+
+.section-title{
+    color: var(--color-primary-dark)
+}
+
+.section-title .accent{
+    color: var(--color-brand-dark);
+
+}
+
+.accent-traditions {
+    color: var(--color-brand-light);
+}
+
+.formats-name{
+    color: var(--color-primary-light);
+}
+
+.contact-us{
+    color: var(--color-brand-dark);
 }
